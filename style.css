@@ -176,6 +176,11 @@ hr {
   float: right;
 }
 
+.the-end li a {
+  text-decoration: none;
+  color: black;
+}
+
 .subscribe ul li a {
   text-decoration: none;
   color: #326891;
@@ -247,6 +252,10 @@ article section {
 
 .extras-small-item ul {
   list-style: none;
+}
+
+.the-end li {
+  text-align: center;
 }
 
 .extras-small-item ul li {
@@ -346,15 +355,6 @@ article section {
 .footer-list ul li a {
   text-decoration: none;
   color: black;
-}
-
-.the-end li a {
-  text-decoration: none;
-  color: black;
-}
-
-.the-end li {
-  text-align: center;
 }
 
 .extras-small-item ul li a {
