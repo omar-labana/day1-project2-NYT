@@ -36,7 +36,7 @@ Just open index.html with a web browser.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/omar-labana)
+- GitHub: [@omar-labana](https://github.com/omar-labana)
 - LinkedIn: [LinkedIn](https://linkedin.com/omarlabana)
 
 
