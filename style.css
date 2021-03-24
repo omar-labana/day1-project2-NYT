@@ -16,6 +16,22 @@ header {
   background-color: white;
 }
 
+.header-left {
+  float: left;
+}
+
+.icons .fab,
+.icons .far,
+.icons .fas {
+  background-color: rgb(233, 233, 233);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.header-right {
+  float: right;
+}
+
 .header-button {
   color: white;
   background-color: #326891;
@@ -23,14 +39,6 @@ header {
   border-radius: 2px;
   padding: 5px 10px 5px 10px;
   margin: 5px 5px 0 0;
-}
-
-.header-right {
-  float: right;
-}
-
-.header-left {
-  float: left;
 }
 
 header a {
@@ -63,28 +71,15 @@ article {
   grid-template-columns: repeat(16, 1fr);
 }
 
-.grid-item {
-  grid-column-start: 6;
-  grid-column-end: 12;
-}
-
-.article-image {
-  width: 100%;
-}
-
 .article-header h1 {
   font-size: 38px;
   padding: 60px 0 30px 0;
   font-style: italic;
 }
 
-.hidden {
-  display: none;
-}
-
-hr {
-  color: rgb(243, 243, 243);
-  border-top: 1px solid rgb(243, 243, 243);
+.grid-item {
+  grid-column-start: 6;
+  grid-column-end: 12;
 }
 
 .icon-container {
@@ -92,18 +87,19 @@ hr {
   font-size: 20px;
 }
 
-.icons .fab,
-.icons .far,
-.icons .fas {
-  background-color: rgb(233, 233, 233);
-  padding: 10px;
-  border-radius: 50%;
-}
-
 .grid-image {
   grid-column-start: 3;
   grid-column-end: 15;
   margin-bottom: 30px;
+}
+
+.article-image {
+  width: 100%;
+}
+
+hr {
+  color: rgb(243, 243, 243);
+  border-top: 1px solid rgb(243, 243, 243);
 }
 
 .caption {
@@ -119,13 +115,13 @@ hr {
   color: rgb(123, 123, 123);
 }
 
+.author {
+  margin: 40px 0 0 0;
+}
+
 .author a {
   color: black;
   font-weight: bold;
-}
-
-.author {
-  margin: 40px 0 0 0;
 }
 
 .sign-up hr {
@@ -148,26 +144,32 @@ hr {
   border-radius: 5px;
 }
 
-.article-end button {
-  display: inline;
-  width: 35%;
-  padding: 10px;
-  float: left;
-  background-color: white;
-  border: 1px solid black;
-  border-radius: 5px;
-}
-
 .article-p {
   margin: 30px 0 10px 0;
   font-size: 20px;
   font-weight: lighter;
 }
 
+
+.credit {
+  margin: 30px 0 30px 0;
+}
+
+.credit hr {
+  width: 10%;
+  color: black;
+  margin: 10px 0 10px 0;
+}
+
 .subscribe {
   grid-column-start: 6;
   grid-column-end: 12;
   text-align: center;
+}
+
+.subscribe ul li a {
+  text-decoration: none;
+  color: #326891;
 }
 
 .subscribe hr {
@@ -197,14 +199,14 @@ hr {
   width: 100%;
 }
 
-.credit {
-  margin: 30px 0 30px 0;
-}
-
-.credit hr {
-  width: 10%;
-  color: black;
-  margin: 10px 0 10px 0;
+.article-end button {
+  display: inline;
+  width: 35%;
+  padding: 10px;
+  float: left;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
 iframe {
@@ -240,12 +242,6 @@ article section {
 
 .extras-small-item ul li {
   margin: 20px 0 20px 0;
-}
-
-.extras-small-item ul li a {
-  text-decoration: none;
-  color: black;
-  font-size: 24px;
 }
 
 .extras-small-item ul li hr {
@@ -292,11 +288,6 @@ article section {
 .extras-mega-item div a {
   display: inline;
   float: right;
-}
-
-.subscribe ul li a {
-  text-decoration: none;
-  color: #326891;
 }
 
 .suggest-card {
@@ -357,6 +348,12 @@ article section {
 .the-end li a {
   text-decoration: none;
   color: black;
+}
+
+.extras-small-item ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
 }
 
 .go-to {
