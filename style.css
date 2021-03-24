@@ -289,9 +289,9 @@ article section {
   margin-bottom: 75px;
 }
 
-.suggest-card a {
-  text-decoration: none;
-  color: #326891;
+.extras-mega-item div a {
+  display: inline;
+  float: right;
 }
 
 .subscribe ul li a {
@@ -338,11 +338,6 @@ article section {
   float: left;
 }
 
-.extras-mega-item div a {
-  display: inline;
-  float: right;
-}
-
 .footer-list {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -351,6 +346,11 @@ article section {
 .footer-list ul {
   list-style: none;
   text-align: center;
+}
+
+.suggest-card a {
+  text-decoration: none;
+  color: #326891;
 }
 
 .footer-list ul li a,
