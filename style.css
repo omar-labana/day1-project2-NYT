@@ -1,10 +1,54 @@
 /* CSS Reset */
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Lato', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
 }
 
-.big{
-    font-size: 25px;
+header {
+  height: 40px;
+  font-size: 16px;
+  border-bottom: 1px solid rgb(196, 196, 196);
+  text-align: center;
+  font-weight: bold;
 }
+.header-button {
+  color: white;
+  background-color: #326891;
+  border: 1px solid #326891;
+  border-radius: 2px;
+  padding: 5px 10px 5px 10px;
+  margin: 5px 5px 0 0;
+}
+.header-right {
+  float: right;
+}
+.header-left {
+  float: left;
+}
+header a {
+  text-decoration: none;
+}
+header i,
+header a {
+  margin: 10px 0 0 28px;
+  color: black;
+}
+header svg {
+  margin-top: 5px;
+}
+.clear {
+  clear: both;
+}
+
+/* ??? */
+.space {
+  height: 200px;
+  width: 100%;
+  background-color: cornflowerblue;
+  margin-top: 20px;
+}
+article {
+  display: grid;
+}
+
