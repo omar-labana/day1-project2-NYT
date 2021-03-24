@@ -166,6 +166,16 @@ hr {
   text-align: center;
 }
 
+.suggest-card a {
+  text-decoration: none;
+  color: #326891;
+}
+
+.extras-mega-item div a {
+  display: inline;
+  float: right;
+}
+
 .subscribe ul li a {
   text-decoration: none;
   color: #326891;
@@ -284,16 +294,6 @@ article section {
   margin-bottom: 75px;
 }
 
-.suggest-card a {
-  text-decoration: none;
-  color: #326891;
-}
-
-.extras-mega-item div a {
-  display: inline;
-  float: right;
-}
-
 .suggest-card {
   width: 33.3333%;
   border: 1px solid rgb(238, 238, 238);
@@ -343,7 +343,11 @@ article section {
   text-align: center;
 }
 
-.footer-list ul li a,
+.footer-list ul li a {
+  text-decoration: none;
+  color: black;
+}
+
 .the-end li a {
   text-decoration: none;
   color: black;
