@@ -150,7 +150,6 @@ hr {
   font-weight: lighter;
 }
 
-
 .credit {
   margin: 30px 0 30px 0;
 }
@@ -285,6 +284,11 @@ article section {
   margin-bottom: 75px;
 }
 
+.suggest-card a {
+  text-decoration: none;
+  color: #326891;
+}
+
 .extras-mega-item div a {
   display: inline;
   float: right;
@@ -339,15 +343,14 @@ article section {
   text-align: center;
 }
 
-.suggest-card a {
-  text-decoration: none;
-  color: #326891;
-}
-
 .footer-list ul li a,
 .the-end li a {
   text-decoration: none;
   color: black;
+}
+
+.the-end li {
+  text-align: center;
 }
 
 .extras-small-item ul li a {
@@ -371,10 +374,6 @@ article section {
   justify-content: space-around;
   list-style: none;
   margin-bottom: 70px;
-}
-
-.the-end li {
-  text-align: center;
 }
 
 .sticky-footer {
