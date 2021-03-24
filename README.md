@@ -4,7 +4,7 @@
 
 > Cloning over an NYT article as my second project.
 
-![screenshot](https://raw.githubusercontent.com/omar-labana/day1-project2-NYT/main/app_screenshot.png
+![screenshot](https://raw.githubusercontent.com/omar-labana/day1-project2-NYT/main/app_screenshot.png)
 
 Full article clone.
 
