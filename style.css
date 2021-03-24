@@ -15,6 +15,7 @@ header {
   width: 100%;
   background-color: white;
 }
+
 .header-button {
   color: white;
   background-color: #326891;
@@ -23,63 +24,74 @@ header {
   padding: 5px 10px 5px 10px;
   margin: 5px 5px 0 0;
 }
+
 .header-right {
   float: right;
 }
+
 .header-left {
   float: left;
 }
+
 header a {
   text-decoration: none;
 }
+
 header i,
 header a {
   margin: 10px 0 0 28px;
   color: black;
 }
+
 header svg {
   margin-top: 5px;
 }
+
 .clear {
   clear: both;
 }
 
-/* ??? */
 .space {
   height: 200px;
   width: 100%;
   background-color: cornflowerblue;
   margin-top: 20px;
 }
+
 article {
   display: grid;
   grid-template-columns: repeat(16, 1fr);
 }
+
 .grid-item {
   grid-column-start: 6;
   grid-column-end: 12;
 }
+
 .article-image {
   width: 100%;
 }
+
 .article-header h1 {
   font-size: 38px;
   padding: 60px 0 30px 0;
   font-style: italic;
 }
 
-/*  */
 .hidden {
   display: none;
 }
+
 hr {
   color: rgb(243, 243, 243);
   border-top: 1px solid rgb(243, 243, 243);
 }
+
 .icon-container {
   padding: 20px 0 30px 0;
   font-size: 20px;
 }
+
 .icons .fab,
 .icons .far,
 .icons .fas {
@@ -87,36 +99,45 @@ hr {
   padding: 10px;
   border-radius: 50%;
 }
+
 .grid-image {
   grid-column-start: 3;
   grid-column-end: 15;
   margin-bottom: 30px;
 }
+
 .caption {
   width: 75%;
   display: inline-block;
 }
+
 .secondary-text {
   color: rgb(36, 36, 36);
 }
+
 .ter-text {
   color: rgb(123, 123, 123);
 }
+
 .author a {
   color: black;
   font-weight: bold;
 }
+
 .author {
   margin: 40px 0 0 0;
 }
+
 .sign-up hr {
   margin: 20px 0 20px 0;
 }
+
 .sign-up div {
   display: inline;
   width: 80%;
   float: left;
 }
+
 .sign-up button {
   display: inline;
   width: 15%;
@@ -126,6 +147,7 @@ hr {
   border: 1px solid black;
   border-radius: 5px;
 }
+
 .article-end button {
   display: inline;
   width: 35%;
@@ -135,16 +157,19 @@ hr {
   border: 1px solid black;
   border-radius: 5px;
 }
+
 .article-p {
   margin: 30px 0 10px 0;
   font-size: 20px;
   font-weight: lighter;
 }
+
 .subscribe {
   grid-column-start: 6;
   grid-column-end: 12;
   text-align: center;
 }
+
 .subscribe hr {
   display: inline-block;
   margin: 20px 0 20px 0;
@@ -152,80 +177,96 @@ hr {
   width: 16%;
   text-align: center;
 }
+
 .subscribe ul {
   list-style: none;
 }
-.subscribe ul li a {
-  text-decoration: none;
-  color: #326891;
-}
+
 .inflation {
   grid-column-start: 4;
   grid-column-end: 14;
   margin-top: 50px;
 }
+
 .card {
   width: 24%;
   display: inline-block;
 }
+
 .card img {
   width: 100%;
 }
+
 .credit {
   margin: 30px 0 30px 0;
 }
+
 .credit hr {
   width: 10%;
   color: black;
   margin: 10px 0 10px 0;
 }
+
 iframe {
   width: 100%;
 }
+
 article section {
   margin: 30px 0 50px 0;
 }
+
 .extras {
   display: grid;
   grid-template-columns: repeat(32, 1fr);
 }
+
 .extras-big-item {
   grid-column-start: 4;
   grid-column-end: 21;
 }
+
 .extras-small-item {
   grid-column-start: 22;
   grid-column-end: 29;
 }
+
 .extras hr {
   color: rgb(0, 0, 0);
 }
+
 .extras-small-item ul {
   list-style: none;
 }
+
 .extras-small-item ul li {
   margin: 20px 0 20px 0;
 }
+
 .extras-small-item ul li a {
   text-decoration: none;
   color: black;
   font-size: 24px;
 }
+
 .extras-small-item ul li hr {
   margin-bottom: 20px;
   color: rgb(245, 245, 245);
 }
+
 .suggest h3 {
   margin-top: 20px;
 }
+
 .suggest-cards {
   display: flex;
   width: 100%;
 }
+
 .suggest-card img {
   width: 33.3333%;
   display: inline;
 }
+
 .suggest-card i {
   display: inline;
   float: right;
@@ -234,20 +275,30 @@ article section {
   padding: 10px;
   border-radius: 50%;
 }
+
 .suggest-card h4 {
   font-size: 12px;
   font-weight: lighter;
 }
+
 .suggest-card h3 {
   margin-top: 0;
 }
+
 .suggest-card p {
   margin-bottom: 75px;
 }
+
 .suggest-card a {
   text-decoration: none;
   color: #326891;
 }
+
+.subscribe ul li a {
+  text-decoration: none;
+  color: #326891;
+}
+
 .suggest-card {
   width: 33.3333%;
   border: 1px solid rgb(238, 238, 238);
@@ -255,6 +306,7 @@ article section {
   margin: 10px;
   padding: 10px;
 }
+
 .suggest-card2 {
   width: 33.3333%;
   border: 1px solid rgb(238, 238, 238);
@@ -262,58 +314,72 @@ article section {
   margin: 10px;
   padding: 10px;
 }
+
 .suggest-card2 h3 {
   margin-top: 0;
 }
+
 .suggest-card2 img {
   width: 100%;
   display: inline;
 }
+
 .spacy {
   margin: 10px 0 10px 0;
 }
+
 .extras-mega-item {
   grid-column-start: 4;
   grid-column-end: 29;
 }
+
 .extras-mega-item div svg {
   display: inline;
   float: left;
 }
+
 .extras-mega-item div a {
   display: inline;
   float: right;
 }
+
 .footer-list {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
 }
+
 .footer-list ul {
   list-style: none;
   text-align: center;
 }
+
 .footer-list ul li a,
 .the-end li a {
   text-decoration: none;
   color: black;
 }
+
 .go-to {
   font-size: 13px;
   text-decoration: none;
   color: #326891;
 }
+
 .footer-list ul li {
   margin: 5px 0 5px 0;
 }
+
 .the-end {
   display: flex;
   justify-content: space-around;
   list-style: none;
   margin-bottom: 70px;
 }
+
 .the-end li {
   text-align: center;
 }
+
 .sticky-footer {
   position: fixed;
   width: 100%;
@@ -323,23 +389,28 @@ article section {
   text-align: center;
   height: 55px;
 }
+
 .sticky-footer p {
   display: inline;
   font-size: 18px;
 }
+
 .sticky-footer p,
 .sticky-footer button {
   margin-top: 10px;
 }
+
 .sticky-footer button {
   padding: 10px;
   background-color: white;
   border: none;
   margin-left: 222px;
 }
+
 .sticky-footer button i {
   margin-left: 30px;
 }
+
 .bold {
   font-weight: bolder;
 }
