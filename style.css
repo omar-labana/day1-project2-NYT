@@ -355,6 +355,7 @@ article section {
 .footer-list ul li a {
   text-decoration: none;
   color: black;
+  float: none;
 }
 
 .extras-small-item ul li a {
