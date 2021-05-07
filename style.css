@@ -1,0 +1,466 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: georgia, 'times new roman', times, serif;
+}
+
+header {
+  height: 40px;
+  font-size: 16px;
+  border-bottom: 1px solid rgb(196, 196, 196);
+  text-align: center;
+  font-weight: bold;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+
+.header-left {
+  float: left;
+}
+
+.icons .fab,
+.icons .far,
+.icons .fas {
+  background-color: rgb(233, 233, 233);
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-button {
+  color: white;
+  background-color: #326891;
+  border: 1px solid #326891;
+  border-radius: 2px;
+  padding: 5px 10px 5px 10px;
+  margin: 5px 5px 0 0;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header i,
+header a {
+  margin: 10px 0 0 28px;
+  color: black;
+}
+
+header svg {
+  margin-top: 5px;
+}
+
+.clear {
+  clear: both;
+}
+
+.space {
+  height: 200px;
+  width: 100%;
+  background-color: cornflowerblue;
+  margin-top: 20px;
+}
+
+article {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+}
+
+.article-header h1 {
+  font-size: 50px;
+  padding: 60px 0 30px 0;
+  font-style: italic;
+}
+
+.grid-item {
+  grid-column-start: 6;
+  grid-column-end: 12;
+}
+
+.icon-container {
+  padding: 20px 0 30px 0;
+  font-size: 20px;
+}
+
+.grid-image {
+  grid-column-start: 3;
+  grid-column-end: 15;
+  margin-bottom: 30px;
+}
+
+.small-grid-img {
+  grid-column-start: 5;
+  grid-column-end: 13;
+  margin-bottom: 30px;
+}
+
+.article-image {
+  width: 100%;
+}
+
+hr {
+  color: rgb(243, 243, 243);
+  border-top: 1px solid rgb(243, 243, 243);
+}
+
+.caption {
+  width: 75%;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.secondary-text {
+  color: rgb(36, 36, 36);
+}
+
+.ter-text {
+  color: rgb(123, 123, 123);
+}
+
+.small-t {
+  font-size: 15px;
+  padding-bottom: 30px;
+}
+
+.author {
+  margin: 40px 0 0 0;
+  font-size: 16px;
+}
+
+.author a {
+  color: black;
+  font-weight: bold;
+}
+
+.sign-up hr {
+  margin: 20px 0 20px 0;
+}
+
+.sign-up div {
+  display: inline;
+  width: 80%;
+  float: left;
+}
+
+.sign-up button {
+  display: inline;
+  width: 15%;
+  padding: 10px;
+  float: right;
+  font-weight: bolder;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.article-p {
+  margin: 30px 0 10px 0;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.credit {
+  margin: 30px 0 30px 0;
+}
+
+.credit hr {
+  width: 10%;
+  color: black;
+  margin: 10px 0 10px 0;
+}
+
+.subscribe {
+  grid-column-start: 6;
+  grid-column-end: 12;
+  text-align: center;
+}
+
+.suggest-card a {
+  text-decoration: none;
+  color: #326891;
+}
+
+.extras-mega-item div a {
+  display: inline;
+  float: right;
+}
+
+.the-end li a {
+  text-decoration: none;
+  color: black;
+}
+
+.subscribe ul li a {
+  text-decoration: none;
+  color: #326891;
+  font-size: 15px;
+}
+
+.subscribe hr {
+  display: inline-block;
+  margin: 20px 0 20px 0;
+  color: #b1b1b1;
+  width: 16%;
+  text-align: center;
+}
+
+.subscribe ul {
+  list-style: none;
+}
+
+.inflation {
+  grid-column-start: 4;
+  grid-column-end: 14;
+  margin-top: 50px;
+}
+
+.inflation-intro {
+  font-size: 18px;
+}
+
+.card {
+  width: 24%;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.article-end button {
+  display: inline;
+  width: 35%;
+  padding: 10px;
+  float: left;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+iframe {
+  width: 100%;
+}
+
+article section {
+  margin: 30px 0 50px 0;
+}
+
+.extras {
+  display: grid;
+  grid-template-columns: repeat(32, 1fr);
+}
+
+.extras-big-item {
+  grid-column-start: 4;
+  grid-column-end: 21;
+}
+
+.extras-small-item {
+  grid-column-start: 22;
+  grid-column-end: 29;
+}
+
+.extras hr {
+  color: rgb(0, 0, 0);
+}
+
+.extras-small-item ul {
+  list-style: none;
+}
+
+.the-end li {
+  text-align: center;
+}
+
+.extras-small-item ul li {
+  margin: 20px 0 20px 0;
+}
+
+.extras-small-item ul li hr {
+  margin-bottom: 20px;
+  color: rgb(245, 245, 245);
+}
+
+.suggest h3 {
+  margin-top: 20px;
+}
+
+.suggest-cards {
+  display: flex;
+  width: 100%;
+}
+
+.suggest-card img {
+  width: 33.3333%;
+  display: inline;
+}
+
+.suggest-card i {
+  display: inline;
+  float: right;
+  font-size: 14px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.suggest-card h4 {
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.suggest-card h3 {
+  margin-top: 0;
+}
+
+.suggest-card p {
+  margin-bottom: 75px;
+}
+
+.suggest-card {
+  width: 33.3333%;
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 1px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.suggest-card2 {
+  width: 33.3333%;
+  border-radius: 1px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.suggest-card2 p {
+  text-align: right;
+  font-size: 14px;
+}
+
+.suggest-card2 h3 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.suggest-card2 time {
+  font-size: 15px;
+}
+
+.suggest-card2 img {
+  width: 100%;
+  display: inline;
+}
+
+.spacy {
+  margin: 10px 0 10px 0;
+}
+
+.extras-mega-item {
+  grid-column-start: 4;
+  grid-column-end: 29;
+}
+
+.extras-mega-item div svg {
+  display: inline;
+  float: left;
+}
+
+.footer-list {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.footer-list ul {
+  list-style: none;
+  text-align: left;
+}
+
+.footer-list ul li a {
+  text-decoration: none;
+  color: rgb(80, 80, 80);
+  float: none;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.footer-list ul li h4 {
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+.special {
+  border-left: 1px solid rgb(209, 209, 209);
+  padding-left: 17px;
+  font-size: 13px;
+  line-height: 21px;
+}
+
+.mb {
+  margin-bottom: 20px;
+}
+
+.extras-small-item ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+.go-to {
+  font-size: 13px;
+  text-decoration: none;
+  color: #326891;
+}
+
+.footer-list ul li {
+  margin: 5px 0 5px 0;
+}
+
+.the-end {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-bottom: 70px;
+  font-size: 11px;
+}
+
+.sticky-footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: white;
+  border-top: 1px solid black;
+  text-align: center;
+  height: 55px;
+}
+
+.sticky-footer p {
+  display: inline;
+  font-size: 18px;
+}
+
+.sticky-footer p,
+.sticky-footer button {
+  margin-top: 10px;
+}
+
+.sticky-footer button {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  margin-left: 222px;
+}
+
+.sticky-footer button i {
+  margin-left: 30px;
+}
+
+.bold {
+  font-weight: bolder;
+}
